@@ -12,11 +12,11 @@ load_dotenv()
 agent_id = os.getenv("AGENT_ID")
 api_key = os.getenv("ELEVENLABS_API_KEY")
 
-elevenlabs = ElevenLabs(api_key=api_key)
+client = ElevenLabs(api_key=api_key)
 
 conversation = Conversation(
     
-    elevenlabs,
+    client,
     agent_id,
     client_tools=client_tools,
 

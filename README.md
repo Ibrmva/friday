@@ -69,13 +69,6 @@ The assistant will start listening for voice input and respond with synthesized 
 - "Save this conversation to a file"
 - "Create an HTML report of our discussion"
 
-## 🎨 Visual Interface
-
-The project includes a beautiful HTML interface (`cool_cats.html`) featuring:
-- Responsive design with dark theme
-- Animated cat images from cataas.com
-- Smooth CSS animations
-- Mobile-friendly layout
 
 ## 📁 Project Structure
 

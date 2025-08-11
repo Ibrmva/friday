@@ -8,7 +8,7 @@ A sophisticated AI-powered conversational assistant built with ElevenLabs voice 
 - **Web Search Integration**: Real-time web search capabilities using DuckDuckGo
 - **Content Generation**: AI-powered image generation using DALL-E 3
 - **File Management**: Save conversations and generate HTML reports
-- **Visual Interface**: Beautiful web-based UI with cool cat animations (see `cool_cats.html`)
+- **Visual Interface**: Beautiful web-based UI with cool cat animations
 
 ## 🛠️ Tech Stack
 
@@ -79,8 +79,8 @@ friday/
 ├── cool_cats.html       # Visual web interface
 ├── requirement.txt      # Python dependencies
 ├── .env                 # Environment variables (create this)
-├── .gitignore           # Git ignore file
-└── README.md            # This file
+├── .gitignore          # Git ignore file
+└── README.md           # This file
 ```
 
 ## 🔍 API Integration

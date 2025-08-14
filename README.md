@@ -166,7 +166,6 @@ For questions or support:
 - [ ] Multi-language support
 - [ ] Advanced conversation memory
 - [ ] Custom voice training
-- [ ] Mobile app integration
 - [ ] Real-time collaboration features
 
 ---

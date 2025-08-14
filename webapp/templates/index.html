@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Assistant</title>
+    <link rel="stylesheet" href="/webapp/static/style.css">
+</head>
+<body>
+    <h1>AI Assistant Interface</h1>
+    <div id="chat-box">
+        {% for msg in messages %}
+            <div class="message {{ msg.role }}">{{ msg.role.capitalize() }}: {{ msg.content }}</div>
+        {% endfor %}
+    </div>
+
+    <form id="message-form">
+        <input type="text" name="message" placeholder="Type your message..." required>
+        <button type="submit">Send</button>
+    </form>
+
+    <script src="/webapp/static/script.js"></script>
+</body>
+</html>
+<script>
+    document.getElementById('message-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+        const messageInput = this.querySelector('input[name="message"]');
+        const message = messageInput.value.trim();
+        if (message) {
+            fetch('/send_message', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ message: message })
+            }).then(response => response.json())
+              .then(data => {
+                  if (data.status === 'ok') {
+                      location.reload(); // Reload to show new message
+                  }
+              });
+            messageInput.value = ''; // Clear input field
+        }
+    });

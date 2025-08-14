@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+#chat-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 400px;
+    overflow-y: auto;
+    background: #f9f9f9;
+}
+.message {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.message.user { color: blue; }
+.message.agent { color: green; }
+.message.tool { color: purple; }

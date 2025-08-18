@@ -1,4 +1,4 @@
-# Friday - AI Conversational Assistant
+# Friday - your AI Conversational Assistant 
 
 A sophisticated AI-powered conversational assistant built with ElevenLabs voice synthesis and OpenAI integration, featuring web search capabilities and dynamic content generation.
 

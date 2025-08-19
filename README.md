@@ -2,7 +2,7 @@
 
 A sophisticated AI-powered conversational assistant built with ElevenLabs voice synthesis and OpenAI integration, featuring web search capabilities and dynamic content generation.
 
-## 🚀 Features
+## Features
 
 - **Voice Conversations**: Natural speech-to-speech interactions using ElevenLabs Conversational AI
 - **Web Search Integration**: Real-time web search capabilities using DuckDuckGo

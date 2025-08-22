@@ -10,7 +10,7 @@ A sophisticated AI-powered conversational assistant built with ElevenLabs voice 
 - **File Management**: Save conversations and generate HTML reports
 - **Visual Interface**: Beautiful web-based UI with cool cat animations
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Backend**: Python with ElevenLabs SDK
 - **AI/ML**: OpenAI GPT, DALL-E 3

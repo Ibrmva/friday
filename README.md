@@ -18,7 +18,7 @@ A sophisticated AI-powered conversational assistant built with ElevenLabs voice 
 - **Audio**: PyAudio for audio processing
 - **Search**: DuckDuckGo Search API
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - Python 3.7+
 - ElevenLabs API key

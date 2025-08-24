@@ -25,7 +25,7 @@ A sophisticated AI-powered conversational assistant built with ElevenLabs voice 
 - OpenAI API key
 - Microphone and speakers for voice interactions
 
-## 🔧 Installation
+## Installation
 
 1. Clone the repository:
 ```bash

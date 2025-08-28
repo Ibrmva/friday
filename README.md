@@ -46,7 +46,7 @@ ELEVENLABS_API_KEY=your_elevenlabs_api_key
 OPENAI_API_KEY=your_openai_api_key
 ```
 
-## 🎯 Usage
+##  Usage
 
 ### Starting the Conversation
 ```bash
